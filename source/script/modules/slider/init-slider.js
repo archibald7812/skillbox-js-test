@@ -49,8 +49,6 @@ function updateClass() {
 		swiperSlide.forEach((item) => item.classList.add("products__item"));
 		swiper.destroy(true, true);
 	}
-
-	updateSwiper();
 }
 
 window.addEventListener("resize", updateClass);
